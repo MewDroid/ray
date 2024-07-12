@@ -139,7 +139,7 @@ How to Use the New API Stack?
 
 The new API stack is disabled by default for all algorithms.
 To activate it for PPO (single- and multi-agent) or SAC (single-agent only),
-change the following in your `AlgorithmConfig` object:
+change the following in your `AlgorithmConfig` object and run your script with `--enable-new-api-stack`:
 
 .. tab-set::
 
